@@ -5,6 +5,7 @@ on:
   pull_request:
     branches:
       - main
+      - migrate-to-actions
 jobs:
   test:
     env:
